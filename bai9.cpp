@@ -75,8 +75,8 @@ public:
         for (const auto& khách_hàng : danh_sách_khách_hàng) {
             khách_hàng.In_Thông_Tin();
             cout << "Số KW được sử dụng: " << khách_hàng.Tính_số_KW() << endl;
-            cout << "Đơn giá của khách hàng: " << khách_hàng.Đơn_Giá(giá_thành) << endl;
-            cout << "Tổng tiền KH phải trả: " << khách_hàng.Sum_tiền(giá_thành) << endl;
+            cout << "Đơn giá của khách hàng: " << khách_hàng.Đơn_Giá(giá_thành) <<" VND" << endl;
+            cout << "Tổng tiền KH phải trả: " << khách_hàng.Sum_tiền(giá_thành) <<" VND" << endl;
             cout << "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+" << endl;
         }
     }
