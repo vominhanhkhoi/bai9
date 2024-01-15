@@ -45,7 +45,7 @@ public:// xác định các thuộc tính trong lớp
     void In_Thông_Tin()
         const
     {
-        cout << "Danh sách khách hàng theo " << Khu_Vực << "\n";
+        cout << "Danh sách khách hàng theo khu vực " << Khu_Vực << "\n";
         cout << " Mã khách hàng: " << Mã_Khách_Hàng << "\n";
         cout << " Khu vực:       " << Khu_Vực << "\n";
         cout << " Chỉ số cũ:     " << Chỉ_số_cũ << "\n";
